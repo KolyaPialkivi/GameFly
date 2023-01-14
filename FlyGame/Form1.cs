@@ -14,7 +14,7 @@ namespace FlyGame
     {
         // глобальные переменные
         int Score = 0;
-        int timer = 10;
+        int timer = 15;
         bool isRunning = false;
 
         public Form1()
@@ -78,11 +78,11 @@ namespace FlyGame
                 #region itog
 
                 // итоги игры
-                if (Score < 10)
+                if (Score < 15)
                 {
                     MessageBox.Show("Bad");
                 }
-                else if (score < 15)
+                else if (Score < 20)
                 {
                     MessageBox.Show("Normal");
                 }
@@ -93,6 +93,11 @@ namespace FlyGame
                 #endregion
 
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

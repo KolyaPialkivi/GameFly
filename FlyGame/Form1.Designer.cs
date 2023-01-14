@@ -37,12 +37,14 @@
             // 
             // buttonFly
             // 
-            this.buttonFly.Location = new System.Drawing.Point(353, 212);
+            this.buttonFly.BackColor = System.Drawing.Color.Black;
+            this.buttonFly.ForeColor = System.Drawing.Color.White;
+            this.buttonFly.Location = new System.Drawing.Point(348, 243);
             this.buttonFly.Name = "buttonFly";
-            this.buttonFly.Size = new System.Drawing.Size(54, 29);
+            this.buttonFly.Size = new System.Drawing.Size(101, 50);
             this.buttonFly.TabIndex = 0;
             this.buttonFly.Text = "FLY";
-            this.buttonFly.UseVisualStyleBackColor = true;
+            this.buttonFly.UseVisualStyleBackColor = false;
             this.buttonFly.Click += new System.EventHandler(this.buttonFly_Click);
             // 
             // timerGame
@@ -53,9 +55,11 @@
             // labelScore
             // 
             this.labelScore.AutoSize = true;
+            this.labelScore.BackColor = System.Drawing.Color.Lime;
+            this.labelScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelScore.Location = new System.Drawing.Point(12, 9);
             this.labelScore.Name = "labelScore";
-            this.labelScore.Size = new System.Drawing.Size(47, 13);
+            this.labelScore.Size = new System.Drawing.Size(61, 17);
             this.labelScore.TabIndex = 1;
             this.labelScore.Text = "Score: 0";
             this.labelScore.Click += new System.EventHandler(this.label1_Click);
@@ -63,17 +67,20 @@
             // labelTimer
             // 
             this.labelTimer.AutoSize = true;
-            this.labelTimer.Location = new System.Drawing.Point(12, 22);
+            this.labelTimer.BackColor = System.Drawing.Color.Red;
+            this.labelTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelTimer.Location = new System.Drawing.Point(12, 26);
             this.labelTimer.Name = "labelTimer";
-            this.labelTimer.Size = new System.Drawing.Size(51, 13);
+            this.labelTimer.Size = new System.Drawing.Size(68, 17);
             this.labelTimer.TabIndex = 2;
-            this.labelTimer.Text = "Timer: 10";
+            this.labelTimer.Text = "Timer: 15";
             this.labelTimer.Click += new System.EventHandler(this.labelTimer_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(834, 561);
             this.Controls.Add(this.labelTimer);
             this.Controls.Add(this.labelScore);
