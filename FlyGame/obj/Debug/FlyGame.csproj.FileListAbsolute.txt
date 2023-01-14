@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\TImerDemoApp\FlyGame\bin\Debug\FlyGame.exe.config
+C:\Users\User\source\repos\TImerDemoApp\FlyGame\bin\Debug\FlyGame.exe
+C:\Users\User\source\repos\TImerDemoApp\FlyGame\bin\Debug\FlyGame.pdb
+C:\Users\User\source\repos\TImerDemoApp\FlyGame\obj\Debug\FlyGame.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\TImerDemoApp\FlyGame\obj\Debug\FlyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\TImerDemoApp\FlyGame\obj\Debug\FlyGame.Form1.resources
+C:\Users\User\source\repos\TImerDemoApp\FlyGame\obj\Debug\FlyGame.Properties.Resources.resources
+C:\Users\User\source\repos\TImerDemoApp\FlyGame\obj\Debug\FlyGame.csproj.GenerateResource.cache
+C:\Users\User\source\repos\TImerDemoApp\FlyGame\obj\Debug\FlyGame.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\TImerDemoApp\FlyGame\obj\Debug\FlyGame.exe
+C:\Users\User\source\repos\TImerDemoApp\FlyGame\obj\Debug\FlyGame.pdb

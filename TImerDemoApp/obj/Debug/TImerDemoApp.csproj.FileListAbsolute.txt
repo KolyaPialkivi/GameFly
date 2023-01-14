@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\TImerDemoApp\TImerDemoApp\bin\Debug\TImerDemoApp.exe.config
+C:\Users\User\source\repos\TImerDemoApp\TImerDemoApp\bin\Debug\TImerDemoApp.exe
+C:\Users\User\source\repos\TImerDemoApp\TImerDemoApp\bin\Debug\TImerDemoApp.pdb
+C:\Users\User\source\repos\TImerDemoApp\TImerDemoApp\obj\Debug\TImerDemoApp.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\TImerDemoApp\TImerDemoApp\obj\Debug\TImerDemoApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\TImerDemoApp\TImerDemoApp\obj\Debug\TImerDemoApp.Form1.resources
+C:\Users\User\source\repos\TImerDemoApp\TImerDemoApp\obj\Debug\TImerDemoApp.Properties.Resources.resources
+C:\Users\User\source\repos\TImerDemoApp\TImerDemoApp\obj\Debug\TImerDemoApp.csproj.GenerateResource.cache
+C:\Users\User\source\repos\TImerDemoApp\TImerDemoApp\obj\Debug\TImerDemoApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\TImerDemoApp\TImerDemoApp\obj\Debug\TImerDemoApp.exe
+C:\Users\User\source\repos\TImerDemoApp\TImerDemoApp\obj\Debug\TImerDemoApp.pdb
