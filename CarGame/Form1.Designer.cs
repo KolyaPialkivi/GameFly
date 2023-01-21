@@ -28,59 +28,88 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.components = new System.ComponentModel.Container();
+            this.pictureBoxCar1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCar2 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCar3 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCar4 = new System.Windows.Forms.PictureBox();
+            this.timerGame = new System.Windows.Forms.Timer(this.components);
+            this.buttonFinish = new System.Windows.Forms.Button();
+            this.buttonStart = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCar4)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pictureBoxCar1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::CarGame.Properties.Resources.png_transparent_car_humvee_military_vehicle_military_miscellaneous_van_car;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 30);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 84);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxCar1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxCar1.Image = global::CarGame.Properties.Resources.car2_green;
+            this.pictureBoxCar1.Location = new System.Drawing.Point(12, 30);
+            this.pictureBoxCar1.Name = "pictureBoxCar1";
+            this.pictureBoxCar1.Size = new System.Drawing.Size(71, 84);
+            this.pictureBoxCar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxCar1.TabIndex = 0;
+            this.pictureBoxCar1.TabStop = false;
+            this.pictureBoxCar1.Click += new System.EventHandler(this.pictureBoxCar1_Click);
             // 
-            // pictureBox2
+            // pictureBoxCar2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::CarGame.Properties.Resources.car2;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 120);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(71, 71);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.pictureBoxCar2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxCar2.Image = global::CarGame.Properties.Resources.car2_yellow;
+            this.pictureBoxCar2.Location = new System.Drawing.Point(12, 120);
+            this.pictureBoxCar2.Name = "pictureBoxCar2";
+            this.pictureBoxCar2.Size = new System.Drawing.Size(71, 71);
+            this.pictureBoxCar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxCar2.TabIndex = 1;
+            this.pictureBoxCar2.TabStop = false;
             // 
-            // pictureBox3
+            // pictureBoxCar3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::CarGame.Properties.Resources.png_clipart_brown_and_white_bus_van_volkswagen_type_2_car_van_compact_car_van;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 197);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(71, 84);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.pictureBoxCar3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxCar3.Image = global::CarGame.Properties.Resources.car21;
+            this.pictureBoxCar3.Location = new System.Drawing.Point(12, 197);
+            this.pictureBoxCar3.Name = "pictureBoxCar3";
+            this.pictureBoxCar3.Size = new System.Drawing.Size(71, 84);
+            this.pictureBoxCar3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxCar3.TabIndex = 2;
+            this.pictureBoxCar3.TabStop = false;
             // 
-            // pictureBox4
+            // pictureBoxCar4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::CarGame.Properties.Resources.png_transparent_automobile_car_red_french_old_vehicle_transportation_auto;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 287);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(71, 84);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.pictureBoxCar4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxCar4.Image = global::CarGame.Properties.Resources.car2_green1;
+            this.pictureBoxCar4.Location = new System.Drawing.Point(12, 287);
+            this.pictureBoxCar4.Name = "pictureBoxCar4";
+            this.pictureBoxCar4.Size = new System.Drawing.Size(71, 84);
+            this.pictureBoxCar4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxCar4.TabIndex = 3;
+            this.pictureBoxCar4.TabStop = false;
+            // 
+            // timerGame
+            // 
+            this.timerGame.Tick += new System.EventHandler(this.timerGame_Tick);
+            // 
+            // buttonFinish
+            // 
+            this.buttonFinish.Enabled = false;
+            this.buttonFinish.Location = new System.Drawing.Point(653, 30);
+            this.buttonFinish.Name = "buttonFinish";
+            this.buttonFinish.Size = new System.Drawing.Size(10, 341);
+            this.buttonFinish.TabIndex = 4;
+            this.buttonFinish.UseVisualStyleBackColor = true;
+            // 
+            // buttonStart
+            // 
+            this.buttonStart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.buttonStart.Location = new System.Drawing.Point(1, 360);
+            this.buttonStart.Name = "buttonStart";
+            this.buttonStart.Size = new System.Drawing.Size(103, 38);
+            this.buttonStart.TabIndex = 5;
+            this.buttonStart.Text = "Start";
+            this.buttonStart.UseVisualStyleBackColor = false;
+            this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
             // 
             // Form1
             // 
@@ -89,27 +118,32 @@
             this.BackgroundImage = global::CarGame.Properties.Resources.road_bg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(704, 400);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.buttonStart);
+            this.Controls.Add(this.pictureBoxCar4);
+            this.Controls.Add(this.pictureBoxCar3);
+            this.Controls.Add(this.pictureBoxCar2);
+            this.Controls.Add(this.pictureBoxCar1);
+            this.Controls.Add(this.buttonFinish);
             this.DoubleBuffered = true;
             this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.Text = "CarGame v1.0";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCar4)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBoxCar1;
+        private System.Windows.Forms.PictureBox pictureBoxCar2;
+        private System.Windows.Forms.PictureBox pictureBoxCar3;
+        private System.Windows.Forms.PictureBox pictureBoxCar4;
+        private System.Windows.Forms.Timer timerGame;
+        private System.Windows.Forms.Button buttonFinish;
+        private System.Windows.Forms.Button buttonStart;
     }
 }
 

@@ -98,5 +98,17 @@
   <ItemGroup>
     <None Include="Resources\png-transparent-automobile-car-red-french-old-vehicle-transportation-auto.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car2_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car2_yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car2_green1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
