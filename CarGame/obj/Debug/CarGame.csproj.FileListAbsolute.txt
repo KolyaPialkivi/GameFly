@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\TImerDemoApp\CarGame\bin\Debug\CarGame.exe.config
+C:\Users\User\source\repos\TImerDemoApp\CarGame\bin\Debug\CarGame.exe
+C:\Users\User\source\repos\TImerDemoApp\CarGame\bin\Debug\CarGame.pdb
+C:\Users\User\source\repos\TImerDemoApp\CarGame\obj\Debug\CarGame.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\TImerDemoApp\CarGame\obj\Debug\CarGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\TImerDemoApp\CarGame\obj\Debug\CarGame.Form1.resources
+C:\Users\User\source\repos\TImerDemoApp\CarGame\obj\Debug\CarGame.Properties.Resources.resources
+C:\Users\User\source\repos\TImerDemoApp\CarGame\obj\Debug\CarGame.csproj.GenerateResource.cache
+C:\Users\User\source\repos\TImerDemoApp\CarGame\obj\Debug\CarGame.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\TImerDemoApp\CarGame\obj\Debug\CarGame.exe
+C:\Users\User\source\repos\TImerDemoApp\CarGame\obj\Debug\CarGame.pdb

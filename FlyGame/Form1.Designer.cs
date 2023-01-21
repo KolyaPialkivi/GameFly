@@ -41,7 +41,7 @@
             this.buttonFly.ForeColor = System.Drawing.Color.White;
             this.buttonFly.Location = new System.Drawing.Point(348, 243);
             this.buttonFly.Name = "buttonFly";
-            this.buttonFly.Size = new System.Drawing.Size(101, 50);
+            this.buttonFly.Size = new System.Drawing.Size(49, 36);
             this.buttonFly.TabIndex = 0;
             this.buttonFly.Text = "FLY";
             this.buttonFly.UseVisualStyleBackColor = false;
@@ -73,7 +73,7 @@
             this.labelTimer.Name = "labelTimer";
             this.labelTimer.Size = new System.Drawing.Size(68, 17);
             this.labelTimer.TabIndex = 2;
-            this.labelTimer.Text = "Timer: 15";
+            this.labelTimer.Text = "Timer: 20";
             this.labelTimer.Click += new System.EventHandler(this.labelTimer_Click);
             // 
             // Form1

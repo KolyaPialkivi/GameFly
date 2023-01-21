@@ -14,7 +14,7 @@ namespace FlyGame
     {
         // глобальные переменные
         int Score = 0;
-        int timer = 15;
+        int timer = 20;
         bool isRunning = false;
 
         public Form1()
